@@ -1,0 +1,9 @@
+wp2mt
+=====
+
+Small gem to dump a Wordpress database into a MovableType importable file format
+
+COPYRIGHT
+=========
+
+Copyright (c) 2009 Felix Cachaldora. See LICENSE for details.
