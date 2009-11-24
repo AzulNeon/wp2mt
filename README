@@ -3,6 +3,9 @@ wp2mt
 
 Small gem to dump a Wordpress database into a MovableType importable file format
 
+It currently works with Wordpress 1.5 database schemes. I don't expect to improve it any further as I wrote this out of necessity. I needed a way to move an old Wordpress 1.5 blog to a newer MovableType installation.
+
+
 COPYRIGHT
 =========
 
