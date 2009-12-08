@@ -29,7 +29,6 @@ module WordPress
       blog_content = MovableType::BlogContent.new
       get_entries.each { |e| blog_content.entry_list << e}
       @connection.disconnect
-      @connection = nil
       blog_content
     end
   
@@ -101,6 +100,7 @@ module WordPress
     
     def disconnect
       @connection.disconnect if @connection
+      @connection = nil
     end
   end
 end
